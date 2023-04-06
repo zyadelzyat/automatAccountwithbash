@@ -1,5 +1,6 @@
 # automatAccountwithbash
 
+```
 #!/bin/bash
 
 read -p "Enter the username: " username
@@ -20,4 +21,4 @@ echo "$username:$password" | chpasswd
 echo "$username ALL=(ALL:ALL) ALL" >> /etc/sudoers
 
 echo "User account created successfully." 
-
+```
